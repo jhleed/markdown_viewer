@@ -3,8 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="bower_components/showdown/dist/showdown.js"></script>
 </head>
 <body>
+<div id="wrapper">
 
+</div>
+
+<script>
+    let converter = new showdown.Converter();
+    let text = `# hi there!!
+        what r u doing?`;
+    let html = converter.makeHtml(text);
+    document.getElementById("wrapper").innerHTML = html;
+</script>
 </body>
 </html>
