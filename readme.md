@@ -10,7 +10,7 @@
 
 '/content/content.md' 파일을 수정하면 바로 반영됩니다.
 
-## 의존성
+##Dependency
  1. showdownJs (markdown to html converter library)
     - https://github.com/showdownjs/showdown
     - version : 1.6.4
