@@ -6,11 +6,11 @@
 
 마크다운을 처음 쓰시는 분들은 온라인 에디터를 사용하시면 좋습니다. (예 : https://stackedit.io/editor)
 
-##Example
+## Example
 
 '/content/content.md' 파일을 수정하면 바로 반영됩니다.
 
-##Dependency
+## Dependency
  1. showdownJs (markdown to html converter library)
     - https://github.com/showdownjs/showdown
     - version : 1.6.4
